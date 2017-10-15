@@ -1,4 +1,4 @@
-package com.cen.wehelp.jopo;
+package com.cen.wehelp.pojo;
 
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.http.ResponseEntity;

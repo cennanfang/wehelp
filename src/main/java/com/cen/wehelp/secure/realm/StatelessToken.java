@@ -1,6 +1,6 @@
 package com.cen.wehelp.secure.realm;
 
-import com.cen.wehelp.jopo.UserPrincipal;
+import com.cen.wehelp.pojo.UserPrincipal;
 import com.cen.wehelp.model.User;
 import org.apache.shiro.authc.AuthenticationToken;
 

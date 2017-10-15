@@ -1,10 +1,12 @@
 package com.github.ichenkaihua.test.unit;
 
+import com.alibaba.fastjson.JSON;
 import com.cen.wehelp.model.User;
 import com.cen.wehelp.service.UserService;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 /**
  * Created by chenkaihua on 15-9-15.
@@ -18,13 +20,13 @@ public class UserServiceTest extends  BaseUnitTest{
 
 
     @Test
-    @Ignore
+//    @Ignore
     public void test(){
         User user = new User();
-        user.setName("陈开华");
-        user.setPassword("密码");
-        userService.addUser(user);
-        System.out.println(user);
+        user.setUserName("naying");
+        List<User> users = userService.getUsers(user);
+        System.out.println(users.size());
+        System.out.println(JSON.toJSONString(users.get(0)));
     }
 
 }

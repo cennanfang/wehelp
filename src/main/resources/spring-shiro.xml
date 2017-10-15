@@ -58,9 +58,12 @@
 				<entry key="rest" value-ref="restNosession" />
 			</map>
 		</property>
+		<property name="loginUrl" value="/login"/>
+		<property name="successUrl" value="/index"/>
+		<property name="unauthorizedUrl" value="/401"/>
 		<property name="filterChainDefinitions">
 			<value>
-				/users/**=noSessionCreation,rest
+				/rest/**=noSessionCreation,rest
 			</value>
 		</property>
 	</bean>

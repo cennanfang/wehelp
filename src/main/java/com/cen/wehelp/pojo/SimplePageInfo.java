@@ -1,4 +1,4 @@
-package com.cen.wehelp.jopo;
+package com.cen.wehelp.pojo;
 
 /**
  * Created by chenkaihua on 15-8-24.

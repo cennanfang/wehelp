@@ -1,11 +1,13 @@
 package com.cen.wehelp.model;
 
 import java.util.Date;
+import javax.persistence.Table; 
 
 /**
 * User 实体类
-* Sun Oct 15 14:37:43 CST 2017 cennanfang
+* Sun Oct 15 21:52:12 CST 2017 cennanfang
 */ 
+@Table(name = "t_user")
 public class User{
 
 	/**

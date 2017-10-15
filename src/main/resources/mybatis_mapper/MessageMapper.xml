@@ -9,6 +9,9 @@
 		<result property="typeId" column="type_id" />
 		<result property="content" column="content" />
 		<result property="contacts" column="contacts" />
+		<result property="locale" column="locale" />
+		<result property="longitude" column="longitude" />
+		<result property="latitude" column="latitude" />
 		<result property="createDate" column="create_date" />
 		<result property="publishedDate" column="published_date" />
 	</resultMap>

@@ -1,4 +1,4 @@
-package com.cen.wehelp.jopo;
+package com.cen.wehelp.pojo;
 
 /**
  * 

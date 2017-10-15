@@ -1,6 +1,6 @@
 package com.cen.wehelp.document;
 
-import com.cen.wehelp.jopo.BaseResponse;
+import com.cen.wehelp.pojo.BaseResponse;
 import com.google.common.base.Predicate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

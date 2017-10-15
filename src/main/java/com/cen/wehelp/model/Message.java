@@ -1,11 +1,13 @@
 package com.cen.wehelp.model;
 
+import javax.persistence.Table;
 import java.util.Date;
 
 /**
 * Message 实体类
-* Sun Oct 15 14:37:43 CST 2017 cennanfang
+* Sun Oct 15 21:52:12 CST 2017 cennanfang
 */ 
+@Table(name = "t_message")
 public class Message{
 
 	/**
@@ -32,6 +34,21 @@ public class Message{
 	* 联系信息
 	*/ 
 	private String contacts;
+
+	/**
+	* 约定地点
+	*/ 
+	private String locale;
+
+	/**
+	* 经度
+	*/ 
+	private Float longitude;
+
+	/**
+	* 纬度
+	*/ 
+	private Float latitude;
 
 	/**
 	* 创建时间
@@ -81,6 +98,30 @@ public class Message{
 
 	public String getContacts(){
 		return contacts;
+	}
+
+	public void setLocale(String locale){
+		this.locale = locale;
+	}
+
+	public String getLocale(){
+		return locale;
+	}
+
+	public void setLongitude(Float longitude){
+		this.longitude = longitude;
+	}
+
+	public Float getLongitude(){
+		return longitude;
+	}
+
+	public void setLatitude(Float latitude){
+		this.latitude = latitude;
+	}
+
+	public Float getLatitude(){
+		return latitude;
 	}
 
 	public void setCreateDate(Date createDate){

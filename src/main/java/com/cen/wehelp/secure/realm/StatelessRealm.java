@@ -1,6 +1,6 @@
 package com.cen.wehelp.secure.realm;
 
-import com.cen.wehelp.jopo.UserPrincipal;
+import com.cen.wehelp.pojo.UserPrincipal;
 import org.apache.log4j.Logger;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

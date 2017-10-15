@@ -1,7 +1,5 @@
 package com.cen.wehelp.controller;
 
-import com.alibaba.fastjson.JSON;
-import jdk.nashorn.internal.parser.JSONParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -22,8 +20,12 @@ public class HomeController {
     //首页跳转到api页面
     @RequestMapping("index")
     public ModelAndView home(){
-        logger.info("------------index home--------------");
-        return new ModelAndView("redirect:swagger-ui.html");
+        return new ModelAndView(/*"redirect:swagger-ui.html"*/ "index");
+    }
+
+    @RequestMapping("login")
+    public String login(){
+        return "login";
     }
 
 

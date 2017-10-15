@@ -1,10 +1,12 @@
 package com.cen.wehelp.model;
 
+import javax.persistence.Table; 
 
 /**
 * Permission 实体类
-* Sun Oct 15 14:37:43 CST 2017 cennanfang
+* Sun Oct 15 21:52:12 CST 2017 cennanfang
 */ 
+@Table(name = "t_permission")
 public class Permission{
 
 	/**

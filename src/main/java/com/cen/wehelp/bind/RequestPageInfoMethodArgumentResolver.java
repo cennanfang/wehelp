@@ -1,6 +1,6 @@
 package com.cen.wehelp.bind;
 
-import com.cen.wehelp.jopo.SimplePageInfo;
+import com.cen.wehelp.pojo.SimplePageInfo;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;

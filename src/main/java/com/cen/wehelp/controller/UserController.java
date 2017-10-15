@@ -1,7 +1,7 @@
 package com.cen.wehelp.controller;
 
 
-import com.cen.wehelp.jopo.ErrorResponseEntity;
+import com.cen.wehelp.pojo.ErrorResponseEntity;
 import com.cen.wehelp.model.User;
 import com.cen.wehelp.service.UserService;
 import com.cen.wehelp.utils.URIUtils;

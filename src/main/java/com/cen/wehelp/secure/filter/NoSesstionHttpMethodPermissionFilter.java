@@ -2,7 +2,7 @@ package com.cen.wehelp.secure.filter;
 
 import com.cen.wehelp.secure.realm.StatelessToken;
 import com.cen.wehelp.Contants;
-import com.cen.wehelp.jopo.UserPrincipal;
+import com.cen.wehelp.pojo.UserPrincipal;
 import com.cen.wehelp.model.User;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.web.filter.authz.HttpMethodPermissionFilter;
@@ -59,7 +59,6 @@ public class NoSesstionHttpMethodPermissionFilter extends
 				logger.info("其他认证失败! "+e.getClass().getSimpleName());
 				e.printStackTrace();
 			}
-
 		}
 		boolean result = super.isAccessAllowed(request, response, mappedValue);
 		logger.info("restult:"+result);
